@@ -11,22 +11,44 @@
 
 
   <body>
+    <div id="sidebar">
+      <ul class=no-bullet-points>
+     <li><a class="button-side" href="#About">About</a></li>
+      <li>
+        <a class="button-side" href="#Socialmedia">Social Media</a>
+      </li>
+      <li>
+        <a class="button-side" href="#Places">Places to visit</a>
+      </li>
+     <li>
+        <a class="button-side" href="#Acknoledgements">Acknoledgements</a>
+     </li>
+      </ul>
+    </div>
+
+
+ <div id="page-content">
+
     <div class="container text-center">
-      <div class= "card">
+
+      <div class= "card" id="About">
         <img class = "profilpicutre" src="images/profil.jpeg" alt= "Clara Maria Profilbild">
 
         <h1>Clara Maria von Wedemeyer</h1>
         <h2>Programmer | Student</h2>
 
         <p> I am currently studying at Bocconi University in Milan for my master in management.</p>
+      </div>
 
-        <ul class = "web-links list-inline">
-          <li><a href="https://www.facebook.com/claramariavw" target="_blank"><i class="fab fa-facebook"></i></a></li>
-          <li><a href=">https://www.linkedin.com/in/clara-maria-von-wedemeyer-72428487/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+      <div class= "card" id="Socialmedia">
+       <ul class="web-links list-inline">
+          <li><a href="https://www.facebook.com/claramariavw" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+          <li><a href=">https://www.linkedin.com/in/clara-maria-von-wedemeyer-72428487/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
         </ul>
       </div>
 
-      <div class="card">
+      <div class="card" id="Places">
         <h2>Best places to visit</h2>
 
         <table class="table">
@@ -58,7 +80,7 @@
         </table>
       </div>
 
-      <div class="card">
+      <div class="card" id=Acknoledgements>
       <h3>About this page</h3>
 
       <p>This page has been coded during the <a href="https://lewagon.org" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
@@ -66,6 +88,7 @@
       <ul class="list-inline">
         <li><i class="fa-2x fas fa-heart"></i></li>
       </ul>
+    </div>
     </div>
     </div>
   </body>

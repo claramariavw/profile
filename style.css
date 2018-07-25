@@ -22,7 +22,7 @@ line-height:1.0}
 
 .container{
   width: 1250px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .card{
@@ -74,6 +74,36 @@ a:hover{
 
 .list-inline {
   padding-left: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0e3150;
+  padding: 50px 0px;
+  line-height:2.0
+}
+
+#page-content {
+
+  margin-left: 300px;
+  margin-right:300px;
+}
+
+.button-side {
+  background-color:rgba(200,200,200,1);
+  color: #0e3150;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+}
+
+.no-bullet-points {
+  list-style: none;
 }
 /*
 
